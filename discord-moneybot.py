@@ -11,6 +11,7 @@ import pandas as pd
 import colorama
 from colorama import Fore, Back, Style
 colorama.init()
+import os, sys
 
 #Variables MODIFICAR
 user = 'YOUR EMAIL'
@@ -26,7 +27,7 @@ options.add_argument('--headless')
 
 
 #MODIFY PATH
-driver = webdriver.Chrome(executable_path='C:\\Users\\USER\\Desktop\\Discord-money-bot-v0.01\\chromedriver.exe', options=options)
+driver = webdriver.Chrome(executable_path=os.path.join(os.path.dirname(__file__), "chromedriver.exe"), options=options)
 #MODIFY PATH
 
 

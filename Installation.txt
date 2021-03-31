@@ -4,7 +4,6 @@ Instalación:
         passwd: pon tu contraseña de discord
         canal: pon el url del canal de texto
         hour: horas entre mensajes (4 horas por defecto)
-        driver_path = 'C:\\Users\\USUARIO\\Desktop\\chromedriver.exe' : modificar path donde este situada la carpeta que contenga chromedrive.exe separando la ruta por \\
     -Al iniciar el .py es recomendable hacerlo con la versión de Python 3.9 de la Windows Store que presenta menos fallos en la ejecución de esta herramienta
 
 Uso:
@@ -16,8 +15,6 @@ Uso:
 Errores:
     No se abre
         Prueba a instalar Python 3.9 desde la windows store y seleccionar "abrir con" y seleccionas esta aplicacion
-    Eror al abrir
-        Si no aparece el título es porque no esta localizado el driver de navegador, asegurate de haber cambiado bien la ruta en el apartado de driver_path
     Error al seleccionar las opciones
         El email y contraseña no son correctos y no se han podido realizar las acciones, compruebalos.
     Como se cierra
@@ -33,7 +30,6 @@ Installation:
         passwd: put your discord password
         channel: put the url of the text channel
         hour: hours between messages (4 hours by default)
-        driver_path = 'C: \\ Users \\ USER \\ Desktop \\ chromedriver.exe': modify path where the folder containing chromedrive.exe is located, separating the path by \\
     -When starting the .py it is recommended to do it with the version of Python 3.9 from the Windows Store, which has fewer errors in the execution of this tool
 
 Use:
@@ -45,8 +41,6 @@ Use:
 Mistakes:
     It does not open
         Try to install Python 3.9 from the windows store and select "open with" and select this application
-    Error when opening
-        If the title does not appear it is because the browser driver is not located, make sure you have changed the path correctly in the driver_path section
     Error selecting options
         The email and password are not correct and the actions could not be carried out, check them.
     How it closes
