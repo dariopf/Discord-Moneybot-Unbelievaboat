@@ -1,0 +1,57 @@
+Instalación:
+    -En el archivo python ".py" modificar:
+        user: pones tu email de discord
+        passwd: pon tu contraseña de discord
+        canal: pon el url del canal de texto
+        hour: horas entre mensajes (4 horas por defecto)
+        driver_path = 'C:\\Users\\USUARIO\\Desktop\\chromedriver.exe' : modificar path donde este situada la carpeta que contenga chromedrive.exe separando la ruta por \\
+    -Al iniciar el .py es recomendable hacerlo con la versión de Python 3.9 de la Windows Store que presenta menos fallos en la ejecución de esta herramienta
+
+Uso:
+    2 Modos de uso:
+        Auto = Este modo realiza segun el intervalo de tiempo la tarea Work o el conjunto de todas (Work, Slut, Crime)
+        Manual = En este modo se pueden realizar estas acciones manualmente sin acceder a discord y a alta velocidad sin que te roben
+            Cada vez que se realice una opción te preguntara si quieres parar el programa seleccionar la opcion "1.NO" para continuar poniendo comandos rápidos
+
+Errores:
+    No se abre
+        Prueba a instalar Python 3.9 desde la windows store y seleccionar "abrir con" y seleccionas esta aplicacion
+    Eror al abrir
+        Si no aparece el título es porque no esta localizado el driver de navegador, asegurate de haber cambiado bien la ruta en el apartado de driver_path
+    Error al seleccionar las opciones
+        El email y contraseña no son correctos y no se han podido realizar las acciones, compruebalos.
+    Como se cierra
+        El programa deberai cerrrarse al cerrar la consola, si no es así pulsando ctrl+c deberia parar
+    El título se muestra mal
+        La aplicación esta pensada apra ser ejecutada en consola maximizada
+
+Version v0.01(BETA)
+
+Installation:
+    -In the python file ".py" modify:
+        user: put your discord email
+        passwd: put your discord password
+        channel: put the url of the text channel
+        hour: hours between messages (4 hours by default)
+        driver_path = 'C: \\ Users \\ USER \\ Desktop \\ chromedriver.exe': modify path where the folder containing chromedrive.exe is located, separating the path by \\
+    -When starting the .py it is recommended to do it with the version of Python 3.9 from the Windows Store, which has fewer errors in the execution of this tool
+
+Use:
+    2 Modes of use:
+        Auto = This mode performs the Work task or the set of all tasks according to the time interval (Work, Slut, Crime)
+        Manual = In this mode you can perform these actions manually without accessing discord and at high speed without being robbed
+            Each time an option is made, it will ask you if you want to stop the program, select the option "1.NO" to continue setting quick commands.
+
+Mistakes:
+    It does not open
+        Try to install Python 3.9 from the windows store and select "open with" and select this application
+    Error when opening
+        If the title does not appear it is because the browser driver is not located, make sure you have changed the path correctly in the driver_path section
+    Error selecting options
+        The email and password are not correct and the actions could not be carried out, check them.
+    How it closes
+        The program should close when closing the console, if not, pressing ctrl + c should stop
+    Title is wrong
+        The application is intended to be executed in a maximized console
+
+Version v0.01 (BETA)
