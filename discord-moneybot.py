@@ -16,14 +16,12 @@ import os, sys
 #Variables MODIFICAR
 user = 'YOUR EMAIL'
 passwd = 'YOUR PASSWORD'
-canal = 'URL CANAL DISCORD'
+canal = 'https://discord.com/login'
 hour =int(4)
 
 #Variables
 options = webdriver.ChromeOptions()
 options.add_experimental_option('excludeSwitches', ['enable-logging'])
-options.add_argument('--disable-extensions')
-options.add_argument('--headless')
 
 
 #MODIFY PATH
@@ -54,11 +52,6 @@ def start():
     result1 = int(input('>>'))
     #Inicio de sesión
     driver.get(canal)
-    usuario = driver.find_element_by_name('email')
-    usuario.send_keys(user)
-    contrasena = driver.find_element_by_name('password')
-    contrasena.send_keys(passwd)
-    contrasena.send_keys(Keys.ENTER)
     time.sleep(1)
     return(result1)
 
